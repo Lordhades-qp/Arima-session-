@@ -66,7 +66,7 @@ ______________________________________
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Owner:* https://wa.me/2250565647764_
+║❒ *Owner:* https://wa.me/2250565647864_
 ║❒ *Repo:* _github.com/Lordhades-qp/ARIMA-BOT_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/LcD3Ei4yWuCK6DXSBcDXLk
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VatUVBSHrDZcV6K0DH0I
