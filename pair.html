@@ -12,7 +12,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: black;
+      background: pink;
       font-family: Arial, sans-serif;
     }
 
@@ -51,7 +51,7 @@
       display: flex;
       background: rgb(10, 10, 10);
       border-radius: 1rem;
-      background: black;
+      background: pink;
       box-shadow: black;
       padding: 0.3rem;
       gap: 0.3rem;
@@ -142,12 +142,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">UCHIHA PAIRING CODE</h3>
+            <h3 class="centered-text">ARIMA PAIRING CODE</h3>
             <br>
-            <h6>Made By FEARLESS TECH 🖕.</h6>
+            <h6>Made By ARIMA 🖕.</h6>
             <h6>Enter Your Number with Country Code.</h6>
             <div class="input-container">
-              <input placeholder="234807595××××" type="number" id="number" placeholder="Mf Enter your Phone Pumber with Cuntry Code" name="">
+              <input placeholder="225056564××××" type="number" id="number" placeholder="Mf Mets ton numéro ic baka 😝" name="">
               <button id="submit">Submit</button>
             </div>
             
@@ -172,7 +172,7 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color:blue;font-weight:bold";
+      obj.style = "color:black;font-weight:bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
@@ -184,14 +184,14 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color:white;font-weight:bold">Enter your WhatsApp number with Country Code</a><br><br>';
+        a.innerHTML = '<a style="color:white;font-weight:bold"Mets ton numéro WhatsApp ici</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
         a.innerHTML = '<a style="color:red;font-weight:bold">Invalid Number</a><br><br>';
       } else {
-        const Wasi_Tech = c.value.replace(/[^0-9]/g, "");
+        const Arima_Tech = c.value.replace(/[^0-9]/g, "");
         let bb = "";
         let bbc = "";
-        const cc = Wasi_Tech.split('');
+        const cc = Arima_Tech.split('');
         cc.map(a => {
           bbc += a;
           if (bbc.length == 3) {
@@ -206,7 +206,7 @@
         c.value = "+" + bb;
         c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
-        let { data } = await axios(`/code?number=${Wasi_Tech}`);
+        let { data } = await axios(`/code?number=${Arima_Tech}`);
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
